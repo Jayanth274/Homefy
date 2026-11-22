@@ -1,0 +1,100 @@
+{
+  "frames": 545,
+  "duration_s": 57.17,
+  "status_share_pct": {
+    "ok": 95.2,
+    "not_observable": 4.8
+  },
+  "baselines": {
+    "mouth_open": {
+      "median": 0.0053,
+      "robust_sd": 0.0044,
+      "min": 0.0006,
+      "max": 0.5541
+    },
+    "mouth_width": {
+      "median": 0.5349,
+      "robust_sd": 0.0224,
+      "min": 0.4705,
+      "max": 0.7445
+    },
+    "mouth_corner_raise": {
+      "median": -0.0152,
+      "robust_sd": 0.0168,
+      "min": -0.0416,
+      "max": 0.0776
+    },
+    "eye_open_r": {
+      "median": 0.0827,
+      "robust_sd": 0.0409,
+      "min": 0.007,
+      "max": 0.1521
+    },
+    "eye_open_l": {
+      "median": 0.087,
+      "robust_sd": 0.0338,
+      "min": 0.0094,
+      "max": 0.151
+    },
+    "brow_gap_r": {
+      "median": 0.2489,
+      "robust_sd": 0.0258,
+      "min": 0.1915,
+      "max": 0.372
+    },
+    "brow_gap_l": {
+      "median": 0.2468,
+      "robust_sd": 0.0274,
+      "min": 0.1913,
+      "max": 0.3625
+    }
+  },
+  "events": {
+    "eyebrow_raise_left": {
+      "count": 1,
+      "total_s": 0.21
+    },
+    "eyebrow_raise_right": {
+      "count": 1,
+      "total_s": 0.32
+    },
+    "mouth_corner_raise": {
+      "count": 3,
+      "total_s": 9.56
+    },
+    "mouth_opening": {
+      "count": 1,
+      "total_s": 10.93
+    }
+  },
+  "notes": [
+    "Observations are geometric measurements of facial landmarks relative to this session's own baseline.",
+    "No emotion, intent or clinical condition is inferred.",
+    "Baseline is the median of 'ok' frames in this session; it is not a clinical neutral face.",
+    "Event thresholds are unvalidated defaults. Reliability score is a model score, not a calibrated probability.",
+    "Eyebrow measures are distorted by head pitch. Reliability model was trained on adult video.",
+    "Eyelid closure not assessable on the right: eye-opening baseline too noisy in this session.",
+    "Eyelid closure not assessable on the left: eye-opening baseline too noisy in this session."
+  ],
+  "brief_eyelid_closures_per_min_right": 0.0,
+  "brief_eyelid_closures_per_min_left": 0.0,
+  "mean_reliability_score_ok_frames": 0.757,
+  "meta": {
+    "source": "sessions\\live1\\session.mp4",
+    "start": "2026-11-21T22:24:24",
+    "source_fps": 9.515,
+    "recorded_video": false,
+    "reliability_model": "gradient_boosting",
+    "ok_threshold": 0.29901902608907543,
+    "label_threshold": 0.06,
+    "rule_thresholds": {
+      "max_abs_yaw": 45,
+      "max_abs_pitch": 35,
+      "max_abs_roll": 30,
+      "min_iod_px": 40,
+      "min_brightness": 50,
+      "min_sharpness": 20,
+      "edge_margin_px": 2
+    }
+  }
+}

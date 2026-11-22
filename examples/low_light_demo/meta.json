@@ -1,0 +1,18 @@
+{
+  "source": "sessions\\live1\\session.mp4",
+  "start": "2026-11-21T22:24:24",
+  "source_fps": 9.515,
+  "recorded_video": false,
+  "reliability_model": "gradient_boosting",
+  "ok_threshold": 0.29901902608907543,
+  "label_threshold": 0.06,
+  "rule_thresholds": {
+    "max_abs_yaw": 45,
+    "max_abs_pitch": 35,
+    "max_abs_roll": 30,
+    "min_iod_px": 40,
+    "min_brightness": 50,
+    "min_sharpness": 20,
+    "edge_margin_px": 2
+  }
+}

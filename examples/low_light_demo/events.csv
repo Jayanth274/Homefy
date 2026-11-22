@@ -1,0 +1,7 @@
+type,side,description,start_ms,end_ms,duration_ms,start_frame,peak_frame,peak_ms,baseline,peak_value,change,confidence,note
+mouth_opening,,Mouth opening above session baseline,17866,28691,10930,170,216,22700,0.0053,0.5541,0.5488,0.718,
+mouth_corner_raise,,Mouth corners raised relative to session baseline,19863,27009,7251,189,242,25433,-0.0152,0.0776,0.0928,0.709,occurs during mouth opening; corner measure may be less reliable while the jaw is open
+eyebrow_raise,left,Brow-to-eyelid distance above session baseline,45507,45612,210,433,433,45507,0.2468,0.3625,0.1157,0.77,
+eyebrow_raise,right,Brow-to-eyelid distance above session baseline,45507,45717,315,433,433,45507,0.2489,0.372,0.1231,0.77,
+mouth_corner_raise,,Mouth corners raised relative to session baseline,48239,48554,420,459,460,48344,-0.0152,0.038,0.0532,0.602,
+mouth_corner_raise,,Mouth corners raised relative to session baseline,48765,50551,1891,464,474,49816,-0.0152,0.048,0.0632,0.643,
